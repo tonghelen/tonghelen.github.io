@@ -1,4 +1,4 @@
- The## Hello from Xutong Ren
+## Hello from Xutong Ren
 <img src="Profile.jpg" width="30%" align="right" />
 
 ### About Me
@@ -10,4 +10,5 @@ I love traditional art such as painting and designing interesting things. But I 
 ### Contact Me
 
 Address: #30, Peking University, 5 Yiheyuan Road, Beijing, P.R.China
+
 E-mail: tonghelen@pku.edu.cn
