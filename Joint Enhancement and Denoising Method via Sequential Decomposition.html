@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>Joint Enhancement and Denoising Method</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="main">
+  
+	<div class="content"><br>
+		<div class="title">
+		  <h1 align="center">Joint Enhancement and Denoising Method</h1>
+		  <h1 align="center">via Sequential Decomposition</h1>
+		</div>
+		<div class="authors">
+			<div class='author'>
+				 <div align="center">
+				   <p>Xutong Ren, Mading Li, Jiaying Liu</p>
+				    <br />
+				 </div>
+			</div>
+			<div class='author'>
+				 <div align="center"></div>
+			</div>
+			<div class='author'></div>		
+		</div>
+		<br>
+		<div class="overview_sec">
+			<div class="frame">
+			  <div align="center"><img src='figures/Frame1.png' alt="Frame" width='60%' align="absmiddle" /></div>
+			  <p align="center" style="text-align: left">
+			  Fig. 1. Framework of the proposed method. 
+			  We first use an initial illumination to refine the final illumination. 		
+			  Following that we use the obtained illumination map and gradient matrices <i>W</i> and <i>G</i> to amplify the reflectance in RGB space. 
+			  Then the enhanced image is generated from the illumination and reflectance</p>
+			  <br />
+		    </div>
+	  	</div>
+
+		<div class="abstract_sec">
+			<h2>Abstract</h2>
+			<div class='abstract'>
+				<p style="text-align:justify">
+				 Many low-light enhancement methods ignore intensive noise in original images. 
+				 As a result, they often simultaneously enhance the noise as well. 
+				 Furthermore, extra denoising procedures adopted by most methods may ruin the details. 
+				 In this paper, we introduce a joint low-light enhancement and denoising strategy, 
+				 aimed at obtaining great enhanced low-light images while getting rid of the inherent noise issue simultaneously. 
+				 The proposed method performs Retinex model based decomposition in a successive sequence, 
+				 which sequentially estimates a piece-wise smoothed illumination and an noise-suppressed reflectance. 
+				 After getting the illumination and reflectance map, we adjust the illumination layer and generate our enhancement result. 
+				 In this noise-suppressed sequential decomposition process we enforce the spatial smoothness on each component 
+				 and skillfully make use of weight matrices to suppress the noise and improve the contrast. 
+				 Results of extensive experiments demonstrate the effectiveness and practicability of our method. 
+				 It performs well for a wide variety of images, and achieves better or comparable quality compared with the state-of-the-art methods. </p>
+		  </div>
+		</div>
+
+		 <br />
+		<div class="experiments_sec">
+			<h2>Experimental Results</h2>
+			<div class="results">
+			  <div align="center"><img src='figures/Result1.png' alt="Results_1" width='60%' align="absmiddle" /></div>
+			  <br />
+			  <div align="center"><img src='figures/Result2.png' alt="Results_2" width='60%' align="absmiddle" /></div>
+			  <br />
+			  <div align="center"><img src='figures/Result3.png' alt="Results_3" width='60%' align="absmiddle" /></div>
+			  <br />
+			  <div align="center"><img src='figures/Result4.png' alt="Results_4" width='60%' align="absmiddle" /></div>
+			  <br />
+			  <p align="center" style="text-align: left">
+			  Fig. 2. Results of our work.
+			  In the first line of each block are the input low-light and noisy images. The second line are our results.
+			  The left of the last two images is the input image and the right one is our result.</p>
+			  <br />
+		    </div>
+		</div>
+
+
+	<p class="banner"align="center">Last update: Nov. 2017</p>
+  </div>
+</div>
+</body>
+</html>
