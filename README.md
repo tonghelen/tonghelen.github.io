@@ -1,3 +1,3 @@
 # Hello from Xutong Ren
 
-![Profile text](./Profile.jpg)
+<img src="Profile.jpg" width="50%" align="right" />
