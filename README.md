@@ -1,4 +1,4 @@
-## Hello from Xutong Ren
+## Hello, from Xutong Ren
 <img src="Profile.jpg" width="30%" align="right" />
 
 ### About Me
