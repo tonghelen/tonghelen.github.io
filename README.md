@@ -1,5 +1,5 @@
 ## Hello, from Xutong Ren
-<img src="3.jpg" width="30%" align="right" />
+<img src="2.jpg" width="30%" align="right" />
 
 ### About Me
 
